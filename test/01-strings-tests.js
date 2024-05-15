@@ -6,6 +6,12 @@ it.optional = require('../extensions/it-optional');
 
 describe('01-strings-tasks', function() {
 
+    //act  value = 'aa', value2 = 'bb'
+
+    // assert tasks.coc....(value1, ....)
+
+    // expect expect().toEual('aabb)
+
     it.optional('concatenateStrings should return concatenation of two strings', function() {
         assert.equal('aabb', tasks.concatenateStrings('aa','bb'));
         assert.equal('aa', tasks.concatenateStrings('aa',''));
